@@ -123,7 +123,7 @@ fun TopicCard(topic: Topic, modifier: Modifier = Modifier) {
 @Composable
 fun TopicPreview() {
     ActCuadriculaTheme {
-        val topic = Topic(R.string.photography, 321, R.drawable.automotive)
+        val topic = Topic(R.string.photography, 321, R.drawable.engineering)
         Column(
             modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.Center,
